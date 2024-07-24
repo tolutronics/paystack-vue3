@@ -8,7 +8,7 @@ A Vue 3 component library for integrating Paystack inline payment into your Vue.
 Install the package via npm:
 
 ```bash
-npm install @paystack/inline-js paystack-vue3
+npm install paystack-vue3
 ```
 
 ## Usage
