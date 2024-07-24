@@ -1,0 +1,44 @@
+{
+  "name": "paystack-vue3",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A Vue 3 component for Paystack payment integration",
+  "main": "dist/paystack-button.umd.js",
+  "module": "dist/paystack-button.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolutronics/paystack-vue3.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "paystack",
+    "payment",
+    "component",
+    "integration",
+    "Fintech"
+  ],
+  "author": "Tolutronics <toluxy100@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tolutronics/paystack-vue3/issues"
+  },
+  "homepage": "https://github.com/tolutronics/paystack-vue3#readme",
+  "dependencies": {
+    "@paystack/inline-js": "^2.19.2",
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
